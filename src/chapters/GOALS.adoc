@@ -1,0 +1,29 @@
+== Goals
+
+=== Implement an <<#applicant_tracking_system, Applicant tracking system>>
+
+==== Requirements
+
+. The implementation **SHOULD** resemble the system as described in all <<User Stories, user stories>>.
+
+. The implementation *MUST* allow the user to add a <<candidate, candidate>> profile.
+
+. The implementation *MUST* allow the user to remove a <<candidate, candidate>> profile.
+
+. The implementation *MUST* allow the user to activate a <<candidate, candidate>> profile.
+
+. The implementation *MUST* allow the user to deactivate a <<candidate, candidate>> profile.
+
+. The implementation *MUST* allow the user to search for <<candidate, candidates>> by specifying <<qualification, qualifications>>.
+
+.. Search results *MUST* be based only on how well the <<candidate, candidate's>> <<qualification, qualifications>> match the search specification.
+
+.. Search results *MUST* only include active <<candidate, candidate>> profiles.
+
+.. Search results *SHOULD* only include <<candidate, candidates>> if and only if their qualifications are relevant to the search specification.
+
+.. Search results *MUST* never include removed <<candidate, candidate>> profiles.
+
+.. Search results *MUST* be displayed and *MAY* include additional relevant information.
+
+.. Search results whose <<qualification, qualifications>> better match the search specification than others *SHOULD* be visibly more prominent than the others.

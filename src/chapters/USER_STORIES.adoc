@@ -1,0 +1,13 @@
+== User Stories
+
+. As a <<Recruiter,recruiter>>, I want to create a <<candidate, candidate>> profile so that it may be accessed sometime later.
+
+. As a <<Recruiter,recruiter>>, I want to remove a <<candidate, candidate's>> profile so that it is no longer accessible.
+
+. As a <<Recruiter,recruiter>>, I want to update a <<candidate, candidate's>> profile so that the profile matches the candidate's current <<qualification, qualifications>>.
+
+. As a <<Recruiter,recruiter>>, I want to activate a <<candidate, candidate's>> profile so that the profile is searchable.
+
+. As a <<Recruiter,recruiter>>, I want to deactivate a <<candidate, candidate's>> profile so that the profile is not searchable.
+
+. As a <<Recruiter,recruiter>>, I want to search for <<candidate, candidates>> based on a specified set of <<qualification, qualifications>> so that I can identify candidates who match the specification.

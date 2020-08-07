@@ -1,0 +1,21 @@
+= Project Manual
+Daniel Maurice Davis <daniel.maurice.davis@gmail.com>
+v1.0
+:doctype: book
+:sectnums:
+:toc:
+
+.Summary
+****
+This document describes the motivations, context and objectives concerning the development of an https://en.wikipedia.org/wiki/Applicant_tracking_system[Applicant Tracking System (ATS)]. The aim is to constrain the project scope to some well defined viable solution. 
+
+An ATS help serve the staffing needs of organizations through its role as a repository for job applicants. The most common forms are proprietary works often as a sub-component of some larger ERP system. However, they are not novel and even exist as open source solutions--this would be yet another solution. 
+****
+
+include::chapters/DEFINITIONS.adoc[]
+
+include::chapters/PERSONAS.adoc[]
+
+include::chapters/USER_STORIES.adoc[]
+
+include::chapters/GOALS.adoc[]

@@ -1,0 +1,21 @@
+== Definitions
+
+[#qualification]
+Qualification::
+A property of a person relevant to their employability.
+
+[#position]
+Position::
+A job or role within an organization that requires a set of <<qualification,qualifications>>. 
+
+[#candidate]
+Candidate::
+A person, open to new <<position,positions>>; has <<qualification,qualifications>>.
+
+[#employer]
+Employer::
+An organization that sometimes requires <<candidate,candidates>> for specified <<position,positions>>.
+
+[#applicant_tracking_system]
+Applicant tracking system::
+A tool used to match <<candidate, candidates>> to <<employer,employer>> <<position,position>> specifications.
