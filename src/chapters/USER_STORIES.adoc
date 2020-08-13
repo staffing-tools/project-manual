@@ -1,13 +1,19 @@
 == User Stories
 
-. As a <<Recruiter,recruiter>>, I want to create a <<candidate, candidate>> profile so that it may be accessed sometime later.
+. As an <<Administrator, Administrator>>, I want users authenticated, so that I know only authentic users are using the system.
 
-. As a <<Recruiter,recruiter>>, I want to remove a <<candidate, candidate's>> profile so that it is no longer accessible.
+. As an <<Administrator, Administrator>>, I want secure access to the system, so that sensitive data is protected.
 
-. As a <<Recruiter,recruiter>>, I want to update a <<candidate, candidate's>> profile so that the profile matches the candidate's current <<qualification, qualifications>>.
+. As an <<Administrator, Administrator>>, I want control over access to the system's resources, so that users can only access authorized resources.
 
-. As a <<Recruiter,recruiter>>, I want to activate a <<candidate, candidate's>> profile so that the profile is searchable.
+. As a <<Recruiter, recruiter>>, I want to add a <<professional_profile, professional profile>>, so that it is stored in the system.
 
-. As a <<Recruiter,recruiter>>, I want to deactivate a <<candidate, candidate's>> profile so that the profile is not searchable.
+. As a <<Recruiter, recruiter>>, I want to remove a <<professional_profile, professional profile>>, so that it is not stored in the system.
 
-. As a <<Recruiter,recruiter>>, I want to search for <<candidate, candidates>> based on a specified set of <<qualification, qualifications>> so that I can identify candidates who match the specification.
+. As a <<Recruiter, recruiter>>, I want to update a <<professional_profile, professional profile>>, so that the record matches the associated <<professional, professional's>> current information.
+
+. As a <<Recruiter, recruiter>>, I want to activate a <<professional_profile, professional profile>>, so that the profile may be in search results.
+
+. As a <<Recruiter, recruiter>>, I want to deactivate a <<professional_profile, professional profile>>, so that the profile may not be in search results.
+
+. As a <<Recruiter, recruiter>>, I want to search for <<candidate, candidates>> by entering a set of <<qualification, qualifications>> into the system, so that I can identify <<professional, professionals>> who match my search terms.

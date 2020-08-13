@@ -1,0 +1,7 @@
+== Summary
+.Purpose
+****
+This document describes the motivations, context and objectives concerning the development of an https://en.wikipedia.org/wiki/Applicant_tracking_system[Applicant Tracking System (ATS)]. The aim is to constrain the project scope to some well defined viable solution. 
+
+Applicant Tracking Systems help serve the staffing needs of organizations. They provide searchable repositories of profiles for professionals potentially open to new positions. The most common forms are proprietary works often as a sub-component of some larger ERP system, however some even exist as open source--this would be yet another solution.
+****

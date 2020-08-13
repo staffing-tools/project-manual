@@ -1,29 +1,83 @@
 == Goals
 
-=== Implement an <<#applicant_tracking_system, Applicant tracking system>>
+=== Develop an <<#applicant_tracking_system, Applicant tracking system>> server application.
 
 ==== Requirements
 
-. The implementation **SHOULD** resemble the system as described in all <<User Stories, user stories>>.
+* The application:
 
-. The implementation *MUST* allow the user to add a <<candidate, candidate>> profile.
+. *MUST* only permit authenticated access.
 
-. The implementation *MUST* allow the user to remove a <<candidate, candidate>> profile.
+. *MUST* only permit secure access.
 
-. The implementation *MUST* allow the user to activate a <<candidate, candidate>> profile.
+. *MUST* maintain a collection of  <<professional_profile, professional profiles>>.
++
+For the collection, the application:
 
-. The implementation *MUST* allow the user to deactivate a <<candidate, candidate>> profile.
+.. *MUST* provide users with the ability, when permitted, to add items.
 
-. The implementation *MUST* allow the user to search for <<candidate, candidates>> by specifying <<qualification, qualifications>>.
+.. *MUST* provide users with the ability, when permitted, to remove items.
 
-.. Search results *MUST* be based only on how well the <<candidate, candidate's>> <<qualification, qualifications>> match the search specification.
+.. *MUST* provide users with the ability, when permitted, to modify items.
 
-.. Search results *MUST* only include active <<candidate, candidate>> profiles.
+.. *MUST* provide users with the ability, when permitted, to retrieve items.
 
-.. Search results *SHOULD* only include <<candidate, candidates>> if and only if their qualifications are relevant to the search specification.
+.. *MUST* provide users with the ability, when permitted, to classify items as _activated_.
++
+Activated items:
 
-.. Search results *MUST* never include removed <<candidate, candidate>> profiles.
+... *MUST* not be considered deactivated.
 
-.. Search results *MUST* be displayed and *MAY* include additional relevant information.
+.. *MUST* provide users with the ability, when permitted, to classify items as _deactivated_.
++
+Deactivated items:
 
-.. Search results whose <<qualification, qualifications>> better match the search specification than others *SHOULD* be visibly more prominent than the others.
+... *MUST* not be considered activated.
+
+. *MUST* provide users with the ability, when permitted, to specify <<qualification, qualifications>>.
++
+When a user provides a specification, the application:
+
+.. *MUST* return a collection of <<professional_profile, professional profiles>>.
++
+Items within the returned collection:
+
+... *MUST* come from the collection of <<professional_profile, professional profiles>> maintained by the application.
+
+... *MUST* be classified as _activated_.
+
+... *MUST* be graded.
++
+The grade:
+
+.... *SHOULD* be based on, and only on, how well its <<qualification, qualifications>> match the user's specification.
+
+... *MUST* exceed the grade threshold if one is specified by the user.
+
+=== Implement an <<#applicant_tracking_system, Applicant Tracking System>> web client.
+
+==== Requirements
+
+* The application:
+
+. *SHOULD* be graphical in nature.
+
+. *MUST* be accessible from a modern browser.
+
+. *MUST* provide users with the ability authenticate.
+
+. *MUST* provide users with the ability the specify <<qualification, qualifications>>, when permitted by the server.
++
+The user's specification:
+
+.. *MUST* be used to search the server for <<candidate, candidates>>.
++
+The search results:
+
+... *MUST* be displayed.
+
+... *MAY* be abstracts of complete records.
++
+In this case, the application:
+
+.... *MUST* provide users with the ability to view complete records.

@@ -1,5 +1,11 @@
 == Personas
 
+=== Administrator
+
+Description::
+A user who authorizes users to access the systems resources.
+
 === Recruiter
 
-A recruiter is a person whose job is to fill open <<position, positions>> for <<employer, employers>>. They use social networks to contact <<candidate, candidates>>. Through discussion, they will create and record profiles based on the candidate's <<qualification, qualifications>>. They use these records to match candidates to open positions. If they find a match, they will inform the employer about the candidate.
+Description::
+A user who curates <<professional_profile, professional profiles>>; searches the system for <<candidate, candidates>>.
