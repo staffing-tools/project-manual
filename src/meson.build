@@ -1,4 +1,4 @@
-project('staffing-tools-project-manual', version : '1.0')
+project('staffing-tools-project-manual', version : '2.0')
 
 gem = find_program('gem')
 asciidoctor = find_program('asciidoctor')
@@ -7,6 +7,7 @@ run_command(gem, 'which', 'asciidoctor-pdf', check:true)
 message('gem asciidoctor-pdf was found')
 
 chapters = files(
+    'chapters/COPYING.adoc',
     'chapters/SUMMARY.adoc',
     'chapters/DEFINITIONS.adoc',
     'chapters/GOALS.adoc',
