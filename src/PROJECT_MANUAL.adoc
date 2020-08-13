@@ -1,10 +1,12 @@
 = Staffing Tools - Project Manual
 Daniel Maurice Davis <daniel.maurice.davis@gmail.com>
-v1.0
+v2.0
 :doctype: book
 :numbered:
 :chapter-label:
 :toc:
+
+include::chapters/COPYING.adoc[]
 
 include::chapters/SUMMARY.adoc[]
 
