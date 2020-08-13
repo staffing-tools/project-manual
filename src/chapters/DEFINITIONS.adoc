@@ -1,21 +1,21 @@
 == Definitions
 
+[#professional]
+Professional::
+A individual, open to new employment.
+
 [#qualification]
 Qualification::
-A property of a person relevant to their employability.
+A skill, talent or classification of a <<professional, professional>> relevant to their employability.
 
-[#position]
-Position::
-A job or role within an organization that requires a set of <<qualification,qualifications>>. 
+[#professional_profile]
+Professional Profile::
+Information about a <<professional, professional>>, relevant to their employability, including their <<qualification, qualifications>>.
 
 [#candidate]
 Candidate::
-A person, open to new <<position,positions>>; has <<qualification,qualifications>>.
+A <<professional, professional>> who has a specific set of <<qualification, qualifications>>.
 
-[#employer]
-Employer::
-An organization that sometimes requires <<candidate,candidates>> for specified <<position,positions>>.
-
-[#applicant_tracking_system]
+[#ats]
 Applicant tracking system::
-A tool used to match <<candidate, candidates>> to <<employer,employer>> <<position,position>> specifications.
+A tool used to detect <<candidate, candidates>>.

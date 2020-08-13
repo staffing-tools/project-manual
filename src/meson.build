@@ -7,6 +7,7 @@ run_command(gem, 'which', 'asciidoctor-pdf', check:true)
 message('gem asciidoctor-pdf was found')
 
 chapters = files(
+    'chapters/SUMMARY.adoc',
     'chapters/DEFINITIONS.adoc',
     'chapters/GOALS.adoc',
     'chapters/PERSONAS.adoc',
